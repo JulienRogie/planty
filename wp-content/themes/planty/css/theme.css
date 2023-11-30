@@ -1,0 +1,150 @@
+.header {
+  background-color: white;
+  height: 60px;
+}
+footer {
+  padding: 30px;
+}
+nav {
+  height: 100%;
+}
+.entry-content {
+  max-width: 1160px;
+  margin: auto;
+  margin-top: 0;
+  background-color: #ece2da;
+}
+
+#copyright {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.elementor-360 {
+  background-color: #3b8e46 !important;
+}
+.hfe-menu-item {
+  border-radius: 25px;
+}
+#menu-item-363 {
+  background-color: #dc9f96;
+  margin-right: 0;
+}
+.hfe-nav-menu {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+.elementor-15
+  .elementor-element.elementor-element-1e2ade2
+  > .elementor-widget-container {
+  margin: -47px 0px 0px 700px;
+  padding: 0px 0px 0px 0px;
+}
+.hfe-nav-menu li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 0 !important;
+}
+#menu-item-363 .hfe-menu-item {
+  color: white !important;
+}
+#menu-item-363:hover {
+  background-color: #c02e44;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.formcolonne {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.formcolonne input {
+  width: 383px;
+  height: 71px;
+  border-radius: 7px;
+  box-shadow: 0px 4px 14px 0px #0000000a;
+}
+.separator {
+  background-color: white;
+  width: 2px;
+  height: 380px;
+}
+form input[type="button"] {
+  width: 198px;
+  height: 55px;
+  padding: 9px 57px 9px 56px;
+  border-radius: 5px;
+  background-color: #e0b9b4;
+  font-family: Syne;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+form input[type="button"]:hover {
+  background-color: #c02e44;
+}
+@media only screen and (max-width: 1000px) {
+  .formcolonne input {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .form {
+    flex-direction: column;
+  }
+  .separator {
+    display: none;
+  }
+  .formcolonne input {
+    width: 100%;
+  }
+}
+h2 {
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 278px;
+  height: 36px;
+  top: 671px;
+  left: 292px;
+}
+.hfe-nav-menu .tikchbila {
+  order: 3;
+}
+
+#menu-item-48 {
+  order: 2;
+}
+#menu-item-363 {
+  order: 4;
+}
+body:not(.rtl)
+  .elementor-10
+  .elementor-element.elementor-element-365437d
+  .hfe-nav-menu__layout-horizontal
+  .hfe-nav-menu
+  > li.menu-item:not(:last-child) {
+  margin-right: 0;
+  margin-left: 10px;
+}
